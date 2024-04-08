@@ -118,6 +118,8 @@ body {
 
     bottom: 50%;
     transform-origin: bottom;
+
+    transition: 1s linear;
 }
 
 .stalk-second {
