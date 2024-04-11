@@ -10,11 +10,14 @@ body {
     height: 100vh;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
     background-color: #eef0f5;
 }
 
+/* Clock */
 .clock {
     background: linear-gradient(120deg, #e6e9ef, #eef0f5);
 
@@ -164,4 +167,11 @@ body {
     box-shadow: 1px 1px 3px #2d333e60;
 
     z-index: 1;
+}
+
+/* Timer clock */
+.timer-clock {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2d333e;
 }
